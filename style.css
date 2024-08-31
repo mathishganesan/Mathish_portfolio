@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@500&display=swap'); /*Skills paragraph font style*/
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -197,6 +198,23 @@ span {
     font-size: 20px;
     margin: 2em 0 3em;
 }
+.follow-me{
+    height: 30px;
+    width: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-decoration: none;
+}
+.follow-me a{
+    color: white;
+    padding: 9px;
+    text-align: center;
+}
+.follow-me img{
+    display: inline-block;
+    margin: 2px;
+}
 .contact-form h2{
     text-align: center;
     margin-top: 3em;
@@ -280,4 +298,77 @@ footer ul li{
     text-align: center;
     font-size: 12px;
     color: white;
+}
+#Myprojects{
+    width: 100%;
+    background-color: bisque;
+    padding: 80px;
+    box-sizing: border-box;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+#project{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+}
+.para{
+    text-align: center;
+    padding: 25px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skills{
+    width: 100%;
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+#title-skill{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    padding: 50px;
+}
+#skills{
+    background-color: #F0F8FF;
+}
+#project{
+    padding: 15px;
+}
+.cards{
+    height: 400px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px black;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+
+}
+.cards,img{
+    margin-bottom: 16px;
+}
+.cards,h2{
+    font-size: 30px;
+    
+}
+.skills-para{
+    font-family: "M PLUS 1 Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.skills-head{
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
 }
