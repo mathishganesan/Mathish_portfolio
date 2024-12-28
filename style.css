@@ -419,7 +419,13 @@ h2 {
     font-style: normal;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
+    html,body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
     .logo {
         font-size: 18px;
     }
