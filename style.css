@@ -11,7 +11,6 @@
     font-weight: 300;
     font-style: normal;
     text-decoration: none;
-
 }
 
 header {
@@ -533,18 +532,19 @@ h2 {
     #Myprojects {
         padding-top: 40px;
         padding-left: 30px;
+        padding-bottom: 40px;
     }
 
     #project {
         font-size: 30px;
         padding: 20px;
         margin-bottom: 25px;
-        margin-left: 70px;
+        margin-left: 60px;
     }
 
     .img-1 img {
         height: 300px;
-        width: 350px;
+        width: 300px;
     }
 
     .img-1 p {
@@ -554,14 +554,20 @@ h2 {
     }
 
     .img-2 img {
-        height: 350px;
-        width: 350px;
+        height: 300px;
+        width: 300px;
     }
 
     .img-2 p {
         padding: 12px;
         margin-bottom: 10px;
         font-size: 18px;
+    }
+    .para {
+        text-align: center;
+        padding: 25px;
+        margin-left: 50px;
+        font-size: 25px;
     }
 
     #title-skill {
