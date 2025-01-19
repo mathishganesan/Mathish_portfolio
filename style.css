@@ -536,7 +536,7 @@ h2 {
 
     #Myprojects {
         padding-top: 40px;
-        padding-left: 30px;
+        padding-left: 60px;
         padding-bottom: 40px;
     }
 
@@ -544,7 +544,7 @@ h2 {
         font-size: 30px;
         padding: 20px;
         margin-bottom: 25px;
-        margin-left: 60px;
+        margin-left: 40px;
     }
 
     .img-1 img {
@@ -571,7 +571,7 @@ h2 {
     .para {
         text-align: center;
         padding: 25px;
-        margin-left: 50px;
+        margin-left: 10px;
         font-size: 25px;
     }
 
